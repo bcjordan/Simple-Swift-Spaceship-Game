@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3031E711AC10DFC0019CEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3031E701AC10DFC0019CEB2 /* AppDelegate.swift */; };
+		D3031E731AC10DFC0019CEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3031E721AC10DFC0019CEB2 /* ViewController.swift */; };
+		D3031E761AC10DFC0019CEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3031E741AC10DFC0019CEB2 /* Main.storyboard */; };
+		D3031E781AC10DFC0019CEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3031E771AC10DFC0019CEB2 /* Images.xcassets */; };
+		D3031E7B1AC10DFC0019CEB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3031E791AC10DFC0019CEB2 /* LaunchScreen.xib */; };
+		D3031E871AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3031E861AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3031E811AC10DFC0019CEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3031E631AC10DFC0019CEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3031E6A1AC10DFC0019CEB2;
+			remoteInfo = SimpleSpaceshipGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3031E6B1AC10DFC0019CEB2 /* SimpleSpaceshipGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSpaceshipGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3031E6F1AC10DFC0019CEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3031E701AC10DFC0019CEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3031E721AC10DFC0019CEB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3031E751AC10DFC0019CEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3031E771AC10DFC0019CEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3031E7A1AC10DFC0019CEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3031E801AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSpaceshipGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3031E851AC10DFC0019CEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3031E861AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSpaceshipGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3031E681AC10DFC0019CEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3031E7D1AC10DFC0019CEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3031E621AC10DFC0019CEB2 = {
+			isa = PBXGroup;
+			children = (
+				D3031E6D1AC10DFC0019CEB2 /* SimpleSpaceshipGame */,
+				D3031E831AC10DFC0019CEB2 /* SimpleSpaceshipGameTests */,
+				D3031E6C1AC10DFC0019CEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3031E6C1AC10DFC0019CEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3031E6B1AC10DFC0019CEB2 /* SimpleSpaceshipGame.app */,
+				D3031E801AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3031E6D1AC10DFC0019CEB2 /* SimpleSpaceshipGame */ = {
+			isa = PBXGroup;
+			children = (
+				D3031E701AC10DFC0019CEB2 /* AppDelegate.swift */,
+				D3031E721AC10DFC0019CEB2 /* ViewController.swift */,
+				D3031E741AC10DFC0019CEB2 /* Main.storyboard */,
+				D3031E771AC10DFC0019CEB2 /* Images.xcassets */,
+				D3031E791AC10DFC0019CEB2 /* LaunchScreen.xib */,
+				D3031E6E1AC10DFC0019CEB2 /* Supporting Files */,
+			);
+			path = SimpleSpaceshipGame;
+			sourceTree = "<group>";
+		};
+		D3031E6E1AC10DFC0019CEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3031E6F1AC10DFC0019CEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3031E831AC10DFC0019CEB2 /* SimpleSpaceshipGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3031E861AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.swift */,
+				D3031E841AC10DFC0019CEB2 /* Supporting Files */,
+			);
+			path = SimpleSpaceshipGameTests;
+			sourceTree = "<group>";
+		};
+		D3031E841AC10DFC0019CEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3031E851AC10DFC0019CEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3031E6A1AC10DFC0019CEB2 /* SimpleSpaceshipGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3031E8A1AC10DFC0019CEB2 /* Build configuration list for PBXNativeTarget "SimpleSpaceshipGame" */;
+			buildPhases = (
+				D3031E671AC10DFC0019CEB2 /* Sources */,
+				D3031E681AC10DFC0019CEB2 /* Frameworks */,
+				D3031E691AC10DFC0019CEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSpaceshipGame;
+			productName = SimpleSpaceshipGame;
+			productReference = D3031E6B1AC10DFC0019CEB2 /* SimpleSpaceshipGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3031E7F1AC10DFC0019CEB2 /* SimpleSpaceshipGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3031E8D1AC10DFC0019CEB2 /* Build configuration list for PBXNativeTarget "SimpleSpaceshipGameTests" */;
+			buildPhases = (
+				D3031E7C1AC10DFC0019CEB2 /* Sources */,
+				D3031E7D1AC10DFC0019CEB2 /* Frameworks */,
+				D3031E7E1AC10DFC0019CEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3031E821AC10DFC0019CEB2 /* PBXTargetDependency */,
+			);
+			name = SimpleSpaceshipGameTests;
+			productName = SimpleSpaceshipGameTests;
+			productReference = D3031E801AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3031E631AC10DFC0019CEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Brian Jordan";
+				TargetAttributes = {
+					D3031E6A1AC10DFC0019CEB2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D3031E7F1AC10DFC0019CEB2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D3031E6A1AC10DFC0019CEB2;
+					};
+				};
+			};
+			buildConfigurationList = D3031E661AC10DFC0019CEB2 /* Build configuration list for PBXProject "SimpleSpaceshipGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3031E621AC10DFC0019CEB2;
+			productRefGroup = D3031E6C1AC10DFC0019CEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3031E6A1AC10DFC0019CEB2 /* SimpleSpaceshipGame */,
+				D3031E7F1AC10DFC0019CEB2 /* SimpleSpaceshipGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3031E691AC10DFC0019CEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3031E761AC10DFC0019CEB2 /* Main.storyboard in Resources */,
+				D3031E7B1AC10DFC0019CEB2 /* LaunchScreen.xib in Resources */,
+				D3031E781AC10DFC0019CEB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3031E7E1AC10DFC0019CEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3031E671AC10DFC0019CEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3031E731AC10DFC0019CEB2 /* ViewController.swift in Sources */,
+				D3031E711AC10DFC0019CEB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3031E7C1AC10DFC0019CEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3031E871AC10DFC0019CEB2 /* SimpleSpaceshipGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3031E821AC10DFC0019CEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3031E6A1AC10DFC0019CEB2 /* SimpleSpaceshipGame */;
+			targetProxy = D3031E811AC10DFC0019CEB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3031E741AC10DFC0019CEB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3031E751AC10DFC0019CEB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3031E791AC10DFC0019CEB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3031E7A1AC10DFC0019CEB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3031E881AC10DFC0019CEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3031E891AC10DFC0019CEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3031E8B1AC10DFC0019CEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleSpaceshipGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3031E8C1AC10DFC0019CEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleSpaceshipGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3031E8E1AC10DFC0019CEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleSpaceshipGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSpaceshipGame.app/SimpleSpaceshipGame";
+			};
+			name = Debug;
+		};
+		D3031E8F1AC10DFC0019CEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleSpaceshipGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleSpaceshipGame.app/SimpleSpaceshipGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3031E661AC10DFC0019CEB2 /* Build configuration list for PBXProject "SimpleSpaceshipGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3031E881AC10DFC0019CEB2 /* Debug */,
+				D3031E891AC10DFC0019CEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3031E8A1AC10DFC0019CEB2 /* Build configuration list for PBXNativeTarget "SimpleSpaceshipGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3031E8B1AC10DFC0019CEB2 /* Debug */,
+				D3031E8C1AC10DFC0019CEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3031E8D1AC10DFC0019CEB2 /* Build configuration list for PBXNativeTarget "SimpleSpaceshipGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3031E8E1AC10DFC0019CEB2 /* Debug */,
+				D3031E8F1AC10DFC0019CEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3031E631AC10DFC0019CEB2 /* Project object */;
+}
